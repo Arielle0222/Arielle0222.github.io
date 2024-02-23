@@ -12,14 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-#minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-header:
-  overlay_image: "/images/$[filename]/about.jpeg"
-  overlay_filter: 0.5 # 이미지에 적용되는 어두운 필터의 강도 (0부터 1까지의 값)
-  caption: "Your Image Caption"
-  actions:
-    - label: "Learn More"
-      url: "https://example.com"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 
 # Site Settings
