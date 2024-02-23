@@ -9,5 +9,4 @@ comments: false
 
 "From Tree to Forest"는 이 블로그의 철학이자 제 인생 여정의 지침입니다.
 
-![about page-8692425](/Users/kimseohee/Desktop/Arielle0222-github-blog/Arielle0222.github.io/images/$[filename]/about page-8692425.jpeg)
-
+<img src="/Users/kimseohee/Desktop/Arielle0222-github-blog/Arielle0222.github.io/images/$[filename]/about page-8692425.jpeg" alt="about page-8692425" style="zoom:100%;" />
