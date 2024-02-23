@@ -1,7 +1,7 @@
 ---
 title: "Hi all! I'm Arielle 👋🏻"
 permalink: /about/
-layout: double
+layout: single
 comments: false
 ---
 
