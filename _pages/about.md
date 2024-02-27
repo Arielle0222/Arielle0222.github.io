@@ -15,4 +15,4 @@ You may have noticed, ***“From Tree to Forest”*** is not only the philosophy
 
 **Arielle's Auto Odyssey** is more than just a blog; it's a journey of my exploration into the world of mobility software and my life. I would like to invite you into my forest as I explore topics such as automotive mechanics, CAN, C++, and emerging trends in mobility software.
 
- So, Would you like to come with me?
+ So, Would you like to come with me? 🚗
