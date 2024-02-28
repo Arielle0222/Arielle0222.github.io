@@ -9,7 +9,7 @@ comments: false
 
 I am an aspiring **high-tech engineer with a vision to become an expert in software-based automobile repair.** My goal is to contribute to creating a future in software-driven automobiles where seamless mobility allows everyone to travel without worry, ensuring a world free from accidents.
 
-People say *"there are more people with courage in the world than geniuses."* Yeah. Unfortunately, I consider myself to have any extraordinary talents. Instead, I believe in the ability to take on challenges without hesitation. Therefore, I aspire to grow from a small tree into a thriving forest.  
+People say *"There are fewer courageous people in the world than geniuses."* Yeah. Unfortunately, I consider myself to have any extraordinary talents. Instead, I believe in the ability to take on challenges without hesitation. Therefore, I aspire to grow from a small tree into a thriving forest.  
 
 You may have noticed, ***“From Tree to Forest”*** is not only the philosophy of this blog but also the guiding principle of my life journey. 
 
