@@ -7,7 +7,7 @@ comments: false
 
 <img src="/images/$[filename]/about.jpeg" alt="1" style="zoom:100%;" />
 
-I am an aspiring **high-tech engineer with a vision to become an expert in software-based automobile repair.** My goal is to contribute to creating a future in software-driven automobiles where seamless mobility allows everyone to travel without worry, ensuring a world free from accidents.
+I am an aspiring **automated driving engineer with a vision to become an expert in software-based automobile repair.** My goal is to contribute to creating a future in software-driven automobiles where seamless mobility allows everyone to travel without worry, ensuring a world free from accidents.
 
 People say *"There are fewer courageous people in the world than geniuses."* Yeah. Unfortunately, I consider myself to have any extraordinary talents. Instead, I believe in the ability to take on challenges without hesitation. Therefore, I aspire to grow from a small tree into a thriving forest.  
 
