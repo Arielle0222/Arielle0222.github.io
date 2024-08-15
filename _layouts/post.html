@@ -1,6 +1,16 @@
 ---
-layout: default
+layout: page
+title : Page of
 ---
+<div class="posts">
+  {% for post in site.posts %}
+    <div class="post">
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.date | date: "%B %d, %Y" }} - {{ post.excerpt }}</p>
+    </div>
+  {% endfor %}
+</div>
+
 <div class="post">
 
 <div class="post-header-container {% if page.cover %}has-cover{% endif %}" {% if page.cover %}style="background-image: url({{ page.cover | prepend: site.baseurl }});"{% endif %}>
