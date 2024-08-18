@@ -2,29 +2,20 @@
 layout: page
 title : Page of
 ---
-<div class="posts">
-  {% for post in site.posts %}
-    <div class="post">
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p>{{ post.date | date: "%B %d, %Y" }} - {{ post.excerpt }}</p>
-    </div>
-  {% endfor %}
-</div>
 
-<div class="post">
-
-<div class="post-header-container {% if page.cover %}has-cover{% endif %}" {% if page.cover %}style="background-image: url({{ page.cover | prepend: site.baseurl }});"{% endif %}>
+<!-- 아래 타이틀 출력 부분이 제거된 상태 -->
+  <div class="post-header-container {% if page.cover %}has-cover{% endif %}" {% if page.cover %}style="background-image: url({{ page.cover | prepend: site.baseurl }});"{% endif %}>
   <div class="scrim {% if page.cover %}has-cover{% endif %}">
     <header class="post-header">
       <h1 class="title">{{ page.title }}</h1>
       <p class="info">by <strong>{{ page.author }}</strong></p>
     </header>
   </div>
-</div>
+</div> 
 
-<div class="wrapper">
+<div class="wrapper">  
 
-{% unless page.cover %} {% include page_divider.html %} {% endunless %}
+{% unless page.cover %} {% include page_divider.html %} {% endunless %} 
 
 <section class="post-meta">
   <div class="post-date">{{ page.date | date: "%B %-d, %Y" }}</div>
@@ -37,7 +28,7 @@ title : Page of
     {% endif %}
   {% endfor %}{% endif %}
   </div>
-</section>
+</section> 
 
 <article class="post-content">
   {{ content }}
@@ -96,7 +87,7 @@ title : Page of
     {% endif %}
     {% if social.name == "Hacker News" and social.share == true %}
       <a href="//news.ycombinator.com/submitlink" onclick="window.location = '//news.ycombinator.com/submitlink?u=' + encodeURIComponent('{{ full_url }}') + '&t={{page.title}}'; return false">
-        <i class="fa fa-{{ social.icon | remove_first: '-square' }} fa-lg"></i>
+        <i class="fa fa-{{ social.icon }} fa-lg"></i>
       </a>
     {% endif %}
   {% endfor %}

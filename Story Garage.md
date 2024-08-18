@@ -8,7 +8,7 @@ main_nav: true
 <h2 id="story-garage">Story Garage</h2>
 {% for desc in site.descriptions %}
   {% if desc.cat == "Story Garage" %}
-    <p class="desc"><em>{{ desc.desc }}</em></p>
+    {{ desc.desc }}
   {% endif %}
 {% endfor %}
 <ul class="posts-list">

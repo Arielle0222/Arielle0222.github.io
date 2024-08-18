@@ -8,7 +8,7 @@ main_nav: true
 <h2 id="code-road">Code & Road</h2>
 {% for desc in site.descriptions %}
   {% if desc.cat == "Code & Road" %}
-    <p class="desc"><em>{{ desc.desc }}</em></p>
+    {{ desc.desc }}
   {% endif %}
 {% endfor %}
 <ul class="posts-list">
