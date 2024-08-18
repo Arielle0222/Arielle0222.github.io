@@ -20,7 +20,7 @@ description: >
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: arielle0222.github.io
-cover: "/assets/header_image.jpg"
+cover: "/assets/main_img.jpg"
 logo: "/assets/logo.png"
 
 # Build settings
