@@ -6,8 +6,7 @@ main_nav: true
 ---
 
 <p style="font-style: italic;">"This section covers all kinds of reviews, experiences, and more."</p>
-
-
+<hr>
 
 <ul class="posts-list">
   {% for post in site.categories["Story Garage"] %}

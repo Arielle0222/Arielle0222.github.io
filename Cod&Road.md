@@ -6,6 +6,7 @@ main_nav: true
 ---
 
 <p style="font-style: italic;">"This section focuses on programming, tutorials, and tech insights."</p>
+<hr>
 
 <ul class="posts-list">
   {% for post in site.categories["Code & Road"] %}
