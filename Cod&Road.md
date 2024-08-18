@@ -5,12 +5,8 @@ permalink: /code/
 main_nav: true
 ---
 
-<h2 id="code-road">Code & Road</h2>
-{% for desc in site.descriptions %}
-  {% if desc.cat == "Code & Road" %}
-    {{ desc.desc }}
-  {% endif %}
-{% endfor %}
+<p style="font-style: italic;">"This section focuses on programming, tutorials, and tech insights."</p>
+
 <ul class="posts-list">
   {% for post in site.categories["Code & Road"] %}
     <li>

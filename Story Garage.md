@@ -5,12 +5,10 @@ permalink: /story/
 main_nav: true
 ---
 
-<h2 id="story-garage">Story Garage</h2>
-{% for desc in site.descriptions %}
-  {% if desc.cat == "Story Garage" %}
-    {{ desc.desc }}
-  {% endif %}
-{% endfor %}
+<p style="font-style: italic;">"This section covers all kinds of reviews, experiences, and more."</p>
+
+
+
 <ul class="posts-list">
   {% for post in site.categories["Story Garage"] %}
     <li>
