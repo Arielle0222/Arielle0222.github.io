@@ -21,7 +21,7 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: arielle0222.github.io
 cover: "/assets/10.jpg"
-logo: "/assets/logo.png"
+logo: "/assets/logo2.png"
 
 # Build settings
 markdown: kramdown
