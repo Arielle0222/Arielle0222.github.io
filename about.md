@@ -18,5 +18,3 @@ My goal is to contribute to a future where <strong>software-driven automobiles o
 I am focusing on an End-to-End Driving approach to tackle the complex challenges in autonomous driving technology. While I may not possess extraordinary talents, I am committed to taking on challenges without hesitation. I believe that courage and determination are key to driving innovation and achieving impactful results in the field of autonomous vehicles.
 </p>
 <hr>
-
-
