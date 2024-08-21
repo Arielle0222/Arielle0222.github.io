@@ -5,16 +5,38 @@ permalink: /about/
 main_nav: true
 ---
 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        .image-container {
+            text-align: center; /* Center the image container */
+            margin: 20px 0; /* Optional: Adds spacing above and below the image */
+        }
+        
+        .image-container img {
+            width: 50%; /* Set the image width to 50% of its container */
+            height: auto; /* Maintain the aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <h2 id="paragraph">Hi all! I'm Arielle 👋🏻</h2>
 
- <!-- 사 진 자 리-->
-<h2 id="paragraph">Hi all! I'm Arielle 👋🏻</h2>
+    <p>
+        Hello! I’m SEOHEE KIM(ARIELLE), a student majoring in Software and Artificial Intelligence (SW/AI) in Republic of Korea.🇰🇷 
+        Arielle's Auto Odyssey is a development blog with the meaning "Every car has a story. Every road has a destination." The main categories include Code & Road which stories about the projects I'm currently working on and related AI code. And Story Garage which discussions and insights related to mobility.
+    </p>
 
-<p>
-Hello! I’m SEOHEE KIM(ARIELLE), a student majoring in Software and Artificial Intelligence (SW/AI) in Republic of Korea.🇰🇷 
-My goal is to contribute to a future where <strong>software-driven automobiles offer seamless mobility and ensure free from accidents.</strong> By designing and implementing advanced machine learning models for autonomous driving systems, I aim to create a future where everyone can move without worry.
-</p>
+    <p>
+        My goal is to contribute to a future where <strong>software-driven automobiles offer seamless mobility and ensure free from accidents.</strong> I aim to create a future where everyone can move without worry. I am determined to achieve that goal through this blog! Thank you😀
+    </p>
 
-<p>
-I am focusing on an End-to-End Driving approach to tackle the complex challenges in autonomous driving technology. While I may not possess extraordinary talents, I am committed to taking on challenges without hesitation. I believe that courage and determination are key to driving innovation and achieving impactful results in the field of autonomous vehicles.
-</p>
-<hr>
+    <!-- Image Placement -->
+    <div class="image-container">
+        <img src="/assets/logo_r.png" alt="Logo" />
+    </div>
+</body>
+</html>
