@@ -3,6 +3,7 @@ layout: page
 title: "Story Garage"
 permalink: /story/
 main_nav: true
+nav_order : 2 
 ---
 
 <p style="font-style: italic;">"This section covers all kinds of reviews, experiences, and more."</p>

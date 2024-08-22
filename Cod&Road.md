@@ -3,6 +3,7 @@ layout: page
 title: "Code & Road"
 permalink: /code/
 main_nav: true
+nav_order : 3
 ---
 
 <p style="font-style: italic;">"This section focuses on programming, tutorials, and tech insights."</p>
