@@ -32,7 +32,11 @@ nav_order : 1
 
 
     <p>
-        My goal is to contribute to a future where <strong>software-driven automobiles offer seamless mobility and ensure free from accidents.</strong> I aim to create a future where everyone can move without worry. I am determined to achieve that goal through this blog! Thank you. 😀
+        My goal is to contribute to a future where <strong>software-driven automobiles offer seamless mobility and ensure free from accidents.</strong> I aim to create a future where everyone can move without worry. I am determined to achieve that goal through this blog! 
+    </p>
+
+    <p>
+    Thank you. Have a good Day! 😀
     </p>
 
     <!-- Image Placement -->
