@@ -32,9 +32,17 @@ highlightjs_theme: "monokai-sublime"
 # https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
 pagination:
   enabled: true
+  per_page: 5
+  title: ":title"
+  sort_field: "date"
+  sort_reverse: true
+  permalink: "/page/:num/"
+
+"pagination:
+  enabled: true
   per_page: 1
   permalink: "/page/:num/"
-  sort_reverse: true
+  sort_reverse: true"
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
 jekyll-archives:
