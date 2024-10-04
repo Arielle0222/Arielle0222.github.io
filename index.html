@@ -46,6 +46,7 @@ pagination:
 <nav class="pagination" role="navigation">
   <p>
     {% if paginator.previous_page %}
+      <!-- 이전 페이지가 있을 경우 이전 페이지 링크 생성 -->
       <a class="newer-posts" href="{{ paginator.previous_page_path }}">
         <span class="fa-stack fa-lg">
           <i class="fa fa-square fa-stack-2x"></i>
@@ -53,8 +54,12 @@ pagination:
         </span>
       </a>
     {% endif %}
+    
+    <!-- 현재 페이지 번호와 총 페이지 수 표시 -->
     <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    
     {% if paginator.next_page %}
+      <!-- 다음 페이지가 있을 경우 다음 페이지 링크 생성 -->
       <a class="older-posts" href="{{ paginator.next_page_path }}">
         <span class="fa-stack fa-lg">
           <i class="fa fa-square fa-stack-2x"></i>
@@ -64,54 +69,6 @@ pagination:
     {% endif %}
   </p>
 </nav>
-
-
-
-{% comment %}
-<nav class="pagination" role="navigation">
-  <p>
-    {% if paginator.previous_page %}
-      {% if paginator.page == 2 %}
-      <a class="newer-posts" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-square fa-stack-2x"></i>
-          <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
-        </span>
-      </a>
-      {% else %}
-      <a class="newer-posts" href="{{ site.baseurl }}{{ paginator.next_page_path }}">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-square fa-stack-2x"></i>
-          <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
-        </span>
-      </a>
-      {% endif %}
-    {% else %}
-    <span class="fa-stack fa-lg">
-      <i class="fa fa-square fa-stack-2x"></i>
-      <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
-    </span>
-    {% endif %}
-    <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-    <a class="newer-posts" href="{{ site.baseurl }}{{ paginator.next_page_path }}">
-      <span class="fa-stack fa-lg">
-        <i class="fa fa-square fa-stack-2x"></i>
-        <i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
-      </span>
-    </a>
-    {% else %}
-    <span class="fa-stack fa-lg">
-      <i class="fa fa-square fa-stack-2x"></i>
-      <i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
-    </span>
-    {% endif %}
-  </p>
-</nav>
-{% endcomment %}
-
-
-
 
 </div>
 </div>

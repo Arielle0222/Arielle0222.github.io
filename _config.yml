@@ -35,7 +35,7 @@ pagination:
   enabled: true
   per_page: 1 # 한 페이지에 표시할 포스트 수
   permalink: "/page/:num/" # 페이지네이션의 URL 구조
-  sort_reverse: true"
+  sort_reverse: true
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
 jekyll-archives:
