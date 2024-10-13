@@ -18,7 +18,7 @@ description:
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/arielle0222.github.io" # 프로젝트 이름으로 설정
 url: "https://arielle0222.github.io"
 cover: "/assets/10.jpg"
 logo: "/assets/logo_r.png"
