@@ -11,3 +11,20 @@
   "neat/neat",
   "layout"
 ;
+
+
+
+
+// series 별 서브 타이틀 설정하기
+.bigdata-subtitle {
+  color: orange !important;
+}
+
+.docker-subtitle {
+  color: rgb(27, 120, 196) !important;
+}
+
+.subtitle {
+  color: white; /* 기본 서브타이틀 색상 */
+}
+

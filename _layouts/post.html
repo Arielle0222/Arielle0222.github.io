@@ -3,15 +3,31 @@ layout: page
 title : Page of
 ---
 
-<!-- 아래 타이틀 출력 부분이 제거된 상태 -->
-  <div class="post-header-container {% if page.cover %}has-cover{% endif %}" 
+<!-- 타이틀 및 서브타이틀 출력 부분 추가 -->
+<div class="post-header-container {% if page.cover %}has-cover{% endif %}" 
   {% if page.cover %}style="background-image: url({{ page.cover | prepend: site.baseurl }});"{% endif %}>
   <div class="scrim {% if page.cover %}has-cover{% endif %}">
     <header class="post-header">
+      <!-- 서브타이틀이 있는 경우에만 표시 -->
+      {% if page.subtitle %}
+        {% if page.series == 'bigdata' %}
+          <!-- bigdata 시리즈일 경우 오렌지 색상 적용 -->
+          <h2 class="bigdata-subtitle">{{ page.subtitle }}</h2>
+        {% elsif page.series == 'docker' %}
+          <!-- Docker 시리즈일 경우 steelblue 색상 적용 (main.scss파일에서 시리즈 별 설정 가능!!) -->
+          <h2 class="docker-subtitle">{{ page.subtitle }}</h2>   
+        {% else %}
+          <!-- 다른 시리즈일 경우 특정 스타일 적용 -->
+          <h2 class="subtitle">{{ page.subtitle }}</h2>
+        {% endif %}
+      {% endif %}
       <p class="info">by <strong>{{ page.author }}</strong></p>
     </header>
   </div>
-</div> 
+</div>
+
+
+
 
 <div class="wrapper">  
 
