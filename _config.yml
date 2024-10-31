@@ -14,7 +14,7 @@ subtitle: "Every car has a story. Every road has a destination."
 email: seohee70428@gmail.com 
 name: SEOHEE KIM(ARIELLE)
 description: 
-  I wish software-driven automobiles offer seamless mobility and ensure free from accidents. 🚗
+  Enjoy the butterflies
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -33,7 +33,7 @@ highlightjs_theme: "monokai-sublime"
 
 pagination:
   enabled: true
-  per_page: 5
+  per_page: 3
   permalink: "/page/:num/"
   sort_reverse: true
 
