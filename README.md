@@ -19,7 +19,6 @@ Through this blog, I share insights, experiences, and technical tutorials as I j
    - _"This section focuses on programming, tutorials, and tech insights."_
 
    **Docker Study Series:**
-   - [Docker Study 4th](https://arielle0222.github.io/code%20&%20road/2024/10/17/docker.html) - 17 October 2024
    - [Docker Study 1st](https://arielle0222.github.io/code%20&%20road/2024/09/28/docker.html) - 28 September 2024
 
 
