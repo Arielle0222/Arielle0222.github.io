@@ -21,7 +21,7 @@ description:
 # root of your server.
 baseurl: "" # 프로젝트 이름으로 설정
 url: "https://arielle0222.github.io"
-cover: "/assets/10.jpg"
+cover: "/assets/header2.gif" #main header 바꾸는 곳
 logo: "/assets/logo_r.png"
 
 # Build settings
