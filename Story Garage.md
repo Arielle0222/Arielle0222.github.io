@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Story Garage"
-permalink: /story/
+permalink: /category/story/
 main_nav: true
 nav_order : 2 
 ---
@@ -10,7 +10,7 @@ nav_order : 2
 <hr>
 
 <ul class="posts-list">
-  {% for post in site.categories["Story Garage"] %}
+  {% for post in site.categories["story-garage"] %}
     <li>
       <strong>
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>

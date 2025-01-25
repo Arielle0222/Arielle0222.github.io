@@ -5,13 +5,10 @@ series: "koreatimes"  # Korea Times 시리즈에 대한 시리즈 지정
 subtitle: "BYD's Entry into the Korean Market and the Shift in the EV Game"
 date:   2025-01-23
 author: Arielle
-categories: [Story Garage] #Story Garage
-tags:   BYD Mobility GameChanger
+categories: [story-garage] #Story Garage
+tags: [BYD, Mobility, GameChanger]
+permalink: /story/the-ev-table-byd-winner/
 #cover:  "/assets/instacode.png"
----
-
-
-
 ---
 
 <html lang="en">

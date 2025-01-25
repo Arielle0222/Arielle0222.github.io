@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Code & Road"
-permalink: /code/
+permalink: /category/code/
 main_nav: true
 nav_order : 3
 ---
@@ -10,7 +10,7 @@ nav_order : 3
 <hr>
 
 <ul class="posts-list">
-  {% for post in site.categories["Code & Road"] %}
+  {% for post in site.categories["code-road"] %}
     <li>
       <strong>
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
