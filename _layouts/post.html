@@ -14,8 +14,12 @@ title : Page of
           <!-- bigdata 시리즈일 경우 오렌지 색상 적용 -->
           <h2 class="bigdata-subtitle">{{ page.subtitle }}</h2>
         {% elsif page.series == 'docker' %}
-          <!-- Docker 시리즈일 경우 steelblue 색상 적용 (main.scss파일에서 시리즈 별 설정 가능!!) -->
-          <h2 class="docker-subtitle">{{ page.subtitle }}</h2>   
+          <!-- Docker 시리즈일 경우 steelblue 색상 적용 -->
+          <h2 class="docker-subtitle">{{ page.subtitle }}</h2>  
+        {% elsif page.series == 'koreatimes' %}
+          <!-- Korea Times 시리즈일 경우 orange 색상 적용 -->
+          <h2 class="koreatimes-subtitle">{{ page.subtitle }}</h2>   
+          
         {% else %}
           <!-- 다른 시리즈일 경우 특정 스타일 적용 -->
           <h2 class="subtitle">{{ page.subtitle }}</h2>
@@ -25,6 +29,7 @@ title : Page of
     </header>
   </div>
 </div>
+
 
 
 
