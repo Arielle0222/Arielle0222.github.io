@@ -8,7 +8,7 @@ author: Arielle
 categories: [story-garage] #Story Garage
 tags: [BYD, Mobility, GameChanger]
 permalink: /story/the-ev-table-byd-winner/
-cover:  "/assets/post_subtitle_background/january.jpg"
+cover:  "/assets/post_subtitle_background/casino.jpg"
 ---
 
 <html lang="en">
