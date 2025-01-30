@@ -55,7 +55,7 @@ BYD's entry into the Korean market doesn't only pose a threat to domestic giants
 
 Another major reason for BYD’s potential success in South Korea is the **rental car market.** BYD is expected to leverage a **high-volume, low-margin strategy** to collaborate with local rental car companies. Here’s why!
 
-<h4> 1️⃣ 5</h4>
+<h4> 1️⃣ Market Saturation in China</h4>
 
 - As of 2023, there were **52 EV brands** and **187 models** in China, leading to a **9.6% drop in average vehicle prices.**
 
