@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post # article # page
 title:  "🎰 The EV Table Welcomes a New Player: Can BYD Emerge as the Winner?"
 series: "koreatimes"  # Korea Times 시리즈에 대한 시리즈 지정
 subtitle: "BYD's Entry into the Korean Market and the Shift in the EV Game"
