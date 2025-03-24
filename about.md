@@ -142,7 +142,7 @@ nav_order: 1
     </p>
 
     <p><strong>Welcome to my journey at the intersection of AI and mechanics!</strong>
-    <br>Thank you for stopping by, and have a great day! 😀</p>
+    <br>Thank you for stopping by, and have a good one! 😀</p>
 
 </div>
 
